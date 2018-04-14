@@ -1,0 +1,54 @@
+	
+TOOLS
+
+	Bulk email	 
+ 	Bulk SMS	 
+ 	Start RADIUS server	 
+ 	Stop RADIUS server	 
+ 	Restart RADIUS server	 
+ 	Rebuild clients.conf	 
+ 	Start DHCP server	 
+ 	Stop DHCP server	 
+ 	Restart DHCP server	 
+ 	Rebuild dhcpd.conf
+
+Report
+	Online RADIUS users	- Clear
+ 	Registered cable modems	
+ 	Overall traffic report	- Clear 
+ 	Find traffic data	 
+ 	Traffic summary	 
+ 	Connection report	 
+ 	Authentication log	- Clear	 
+ 	Last syslog events	 
+ 	Browse syslog	 
+ 	System informations	 
+ 	System statistics
+
+IAS
+	List IAS users	 
+ 	List IAS templates	 
+ 	New IAS template	
+
+Card System
+	
+	List card series	 
+ 	List classic prepaid cards	 
+ 	List refill cards	 
+ 	Find refill cards	 
+ 	Generate cards	 
+ 	Card statistics
+
+Financials
+	
+	Find invoices	 
+ 	Generate postpaid invoices
+
+IP Pools
+	
+	List pools	 
+ 	New pool
+
+CMTS
+	List CMTS	 
+ 	New CMTS
