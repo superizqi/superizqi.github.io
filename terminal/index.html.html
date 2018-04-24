@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.bundle.js"></script>
+</head>
+<body>
+
+
+
+  <div id="win1" class="draggable">
+  <div class="exit pointer" id="exit1">&times;</div>
+    <div class="header">
+    RPH.exe
+    </div>
+    <div class="terminal">
+      <ol>
+        <li id="term1" class="pointer">Bio.exe</li>
+        <li id="term2" class="pointer">MySkill.exe</li>
+        <li id="term3" class="pointer">XP.exe</li>
+      </ol>
+    </div>
+  </div>
+
+  <div id="win2" class="draggable">
+    <div class="exit pointer" id="exit2"> &times; </div>
+    <div class="header">
+    Bio.exe
+    </div>
+    <div class="terminal small">
+      <ol>
+        <li>Nama : Rizqi Prima Hariadhy</li>
+        <li>Time/Place of Birth : Purwokerto, 1 November 1998</li>
+        <li>Address : Cherry Field Cluster Celeste 18s </li>
+        <li>Phone No. : 018226269692 </li>
+        <li>email : rizqiphd@gmail.com</li>
+      </ol>
+    </div>
+  </div>
+
+  <div id="win22" class="draggable">
+    <div class="exit pointer" id="exit22"> &times; </div>
+    <div class="header">
+    EduHistory.exe
+    </div>
+    <div class="terminal small">
+        <ul>
+          <li>Now </br>
+          Information System,Telkom University
+          </li>
+        </ul>
+    </div>
+  </div>
+
+  <div id="win3" class="draggable">
+    <div class="exit pointer" id="exit3"> &times; </div>
+    <div class="header">
+    CodingSkill.exe
+    </div>
+    <div class="terminal">
+      Newbie
+      <canvas id="CodeSkill" width="600px" height="300px">  </canvas>
+    </div>
+  </div>
+
+
+  <div id="win4" class="draggable">
+    <div class="exit pointer" id="exit4"> &times; </div>
+    <div class="header">
+    OrgXP.exe
+    </div>
+    <div class="terminal">
+      <ul>
+        <li> Now </br>
+        Daspro Laboratory</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="centered">
+
+    <h1><strong
+       class="G centered pointer" id="Btn1">
+RPH
+         <!-- <img src="ryuki.png" alt="" id="Btn1"> -->
+
+  </strong></h1>
+
+
+
+</div>
+
+
+  <script src="js/typed-min.js"></script>
+  <script src="js/mainscript.js"></script>
+  <!-- <script type="text/javascript">
+    new Chart(document.getElementById("CodeSkill"), {
+      type: 'radar',
+      data: {
+        labels: ["C++", "C#", "Python","javascript","Pascal"],
+        datasets: [{
+            label:"Exprience in Programming Language",
+            fill: true,
+            backgroundColor: 'rgba(0, 163, 255, 0.5)',
+            borderColor: 'rgba(0, 163, 255, 1)',
+
+          data: [4.5,3.6,2,3,5]
+          }]
+      },
+      options: {
+
+        scale :{
+          ticks: {
+            beginAtZero: true,
+            min: 0,
+            max: 5,
+            stepSize: 1
+          }
+        }
+      }
+    });
+
+    new Chart(document.getElementById("Tools"), {
+      type: 'radar',
+      data: {
+        labels: ["Unity3D", "3DBlender", "AfterEffect","Photoshop","jquery","html+css"],
+        datasets: [{
+            label:'Skills in tools and software',
+            fill: true,
+            backgroundColor: 'rgba(255, 0, 54, 0.5)',
+            borderColor: 'rgba(255, 0, 54, 1)',
+          data: [4,3.5,4,4.5,3,3.2]
+          }]
+      },
+      options: {
+        scale :{
+        ticks: {
+            beginAtZero: true,
+            min: 0,
+            max: 5,
+            stepSize: 1
+          }
+        }
+      }
+    });
+</script> -->
+</body>
+</html>
