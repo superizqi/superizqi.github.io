@@ -1,13 +1,13 @@
 body{
   font-family: sans-serif;
-  background-color: #eee;
+  background-color: #FFFFFF;
   color: #000;
 }
 
 div.centered{
 font-size: 300%;
 align-items: center;
-padding-top: 12.5%;
+padding-top: 5%;
 padding-bottom:  0px;
 text-align: center;
 
@@ -39,7 +39,9 @@ li:hover{
 
 strong{
   border: solid;
-  padding: 10px;
+  padding: 100px;
+  /* height: auto;
+  width: auto; */
 }
 
 .terminal{
